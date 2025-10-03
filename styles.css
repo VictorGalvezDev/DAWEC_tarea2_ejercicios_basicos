@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;               
+  justify-content: center;  
+  align-items: center;        
+  gap: 20px;                           
+  background-color: rgb(243, 226, 226);  
+}
+.boton{
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: blue;
+}
+.tabla {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: rgb(26, 26, 185);
+  padding: 10px;
+  border: 5px solid rgb(0, 0, 0);
+}
+.multiplicacion {
+  margin: 0;
+  color: white;
+
+}
+.contenedor {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
